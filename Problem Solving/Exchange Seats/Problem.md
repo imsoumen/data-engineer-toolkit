@@ -1,8 +1,9 @@
-<ins>**Problem Description:**</ins>
+# <ins>**Problem Description:**</ins>
 
 Write a solution to swap the seat id of every two consecutive students.
 
 If the number of students is odd, the id of the last student is not swapped.
+
 
 <ins>**SQL DDL:**</ins>
 
@@ -21,9 +22,10 @@ INSERT INTO seats VALUES
 (7, 'Priya');
 
 
+
 <ins>**PySpark DDL:**</ins>
 
-# Sample data 
+
 data = [
     (1, 'Amit'),
     (2, 'Deepa'),
