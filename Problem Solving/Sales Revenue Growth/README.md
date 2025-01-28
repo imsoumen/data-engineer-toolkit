@@ -50,7 +50,7 @@ products_schema = StructType([\
 sales_schema = StructType([\
     StructField("product_id", IntegerType(), nullable=False),\
     StructField("year", IntegerType(), nullable=False),\
-    StructField("total_sales_revenue", DecimalType(10, 2), nullable=False)\
+    StructField("total_sales_revenue", DoubleType(), nullable=False)\
 ])
 
 products_data = [\
